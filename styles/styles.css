@@ -64,11 +64,10 @@ footer {
 }
 
 .center {
-  width: 45%;
-  height: 300px;
+  width: 400px;
   gap: 50px;
   margin: 20px 0px 0px 0px;
-  border: 5px solid var(--main-light-red);
+  border: 3px solid var(--main-light-red);
 }
 
 /*
