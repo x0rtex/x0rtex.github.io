@@ -51,27 +51,20 @@ h2, h3 {
   font-size: 32px;
 }
 
-footer {
-  padding: 0px;
-  background-color: var(--main-medium-red);
-  clear: both;
-  margin: 0px;
-}
-
 #content {
   width: 70%;
   float: left;
 }
 
 .center {
-  width: 400px;
-  gap: 50px;
+  width: 45%;
+  gap: 2%;
   margin: 20px 0px 0px 0px;
   border: 3px solid var(--main-light-red);
 }
 
 /*
-  Navigation Bar
+  Header (Navigation Bar)
 */
 
 header, nav, nav ul li:hover, h2, h3 {
@@ -121,11 +114,22 @@ nav ul li a {
 }
 
 /*
-  Attraction page columns
+  Footer
+*/
+
+footer {
+  padding: 0px;
+  background-color: var(--main-medium-red);
+  clear: both;
+  margin: 0px;
+}
+
+/*
+  Columns
 */
 
 .columns {
-  gap: 50px;
+  gap: 2%;
   margin: 0px 5px;
   display: flex;
   justify-content: center;
