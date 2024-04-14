@@ -144,8 +144,13 @@ nav ul li a {
 
 footer {
   clear: both;
-  padding: 0;
+  padding: 2px 0;
+  margin: 0;
   background-color: var(--main-medium-red);
+}
+
+footer p {
+  margin-left: 15px;
 }
 
 /*

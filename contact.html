@@ -37,7 +37,7 @@
     background-blend-mode: darken;
 ">
         <section>
-            
+            <h4 style="margin: 10px">Feel free to contact us about any enquiries you have!</h4>
             <form action="https://foo.com" method="get">
                 <label for="first_name">First Name:<span class="required"> *</span></label>
                 <input type="text" name="first_name" id="first_name" autofocus required><br>
@@ -48,34 +48,32 @@
                 <label for="email">Email:<span class="required"> *</span></label>
                 <input type="email" name="email" id="email" required placeholder="john.doe@example.com"><br>
 
-                <label for="gender">Gender:</label>
-                <input type="radio" name="gender" id="gender" value="male"> Male
-                <input type="radio" name="gender" id="gender" value="female"> Female
-                <input type="radio" name="gender" id="gender" value="other"> Other <br>
+                <label>Gender:</label><br>
+                <input type="radio" name="gender" id="male" value="male"> <label for="male">Male</label><br>
+                <input type="radio" name="gender" id="female" value="female"> <label for="female">Female</label><br>
+                <input type="radio" name="gender" id="other" value="other"> <label for="other">Other</label><br>
 
-                <label for="heard">How you heard about us:</label>
                 <fieldset>
-                    <input type="checkbox" name="websearch" id="heard" checked> Web Search <br>
-                    <input type="checkbox" class="marginl" name="promo" id="heard"> Promotion <br>
-                    <input type="checkbox" class="marginl" name="friend" id="heard"> Friend <br>
+                    <legend>How you heard about us:</legend>
+                    <input type="checkbox" name="websearch" id="websearch" checked> <label for="websearch">Web Search</label><br>
+                    <input type="checkbox" name="promo" id="promo"> <label for="promo">Promotion</label><br>
+                    <input type="checkbox" name="friend" id="friend"> <label for="friend">Friend</label><br>
                 </fieldset>
-                <br>
 
-                <label for="message">Message:</label>
+                <label for="message">Message:</label><br>
                 <textarea name="message" id="message" cols="40" rows="6"></textarea><br>
 
-                <input type="submit" name="submit" id="button" value="Submit">
+                <input type="submit" name="submit" id="submit" value="Submit">
                 <input type="reset" name="reset" id="reset">
             </form>
+
             <p><span class="required">*</span><em> indicates a required field </em></p>
         </section>
 
     </main>
 
     <footer>
-        <section>
-            <p>&copy; Copyright 2024 - This is a university project website</p>
-        </section>
+        <p>&copy; Copyright 2024 - This is a university project website</p>
     </footer>
 
 </body>
