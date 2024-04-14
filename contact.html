@@ -10,12 +10,15 @@
     <title>Contact</title>
     <link rel="stylesheet" href="styles/styles.css">
     <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <style>
+        section p { margin-left: 138px; }
+    </style>
 </head>
 
 <body>
 
     <header>
-        <img id="logo" src="images/logo.png" width="87px">
+        <img id="logo" src="images/logo.png" alt="Logo">
         <h1 id="title">GoLatvia</h1>
         <nav>
             <ul>
@@ -28,11 +31,14 @@
         </nav>
     </header>
 
-    <main>
-
+    <main style="
+    background-image: url('https://i.imgur.com/xIC7ZpL.jpeg');
+    background-color: rgba(44,36,36,.8);
+    background-blend-mode: darken;
+">
         <section>
             
-            <form action="http:/foo.com" method="get">
+            <form action="https://foo.com" method="get">
                 <label for="first_name">First Name:<span class="required"> *</span></label>
                 <input type="text" name="first_name" id="first_name" autofocus required><br>
 
@@ -49,9 +55,9 @@
 
                 <label for="heard">How you heard about us:</label>
                 <fieldset>
-                    <input type="checkbox" name="websearch" id="websearch" checked> Web Search <br>
-                    <input type="checkbox" class="marginl" name="promo" id="promo"> Promotion <br>
-                    <input type="checkbox" class="marginl" name="friend" id="friend"> Friend <br>
+                    <input type="checkbox" name="websearch" id="heard" checked> Web Search <br>
+                    <input type="checkbox" class="marginl" name="promo" id="heard"> Promotion <br>
+                    <input type="checkbox" class="marginl" name="friend" id="heard"> Friend <br>
                 </fieldset>
                 <br>
 
@@ -61,7 +67,7 @@
                 <input type="submit" name="submit" id="button" value="Submit">
                 <input type="reset" name="reset" id="reset">
             </form>
-            <p style="margin-left: 138px;"><span class="required">*</span><em> indicates a required field </em></p>
+            <p><span class="required">*</span><em> indicates a required field </em></p>
         </section>
 
     </main>
