@@ -57,9 +57,14 @@ aside p {
 }
 
 aside img {
-  width: 85%;
+  width: 90%;
+  margin-bottom: 10px;
   gap: 2%;
   border: 3px solid var(--main-light-red);
+}
+
+aside li {
+  margin-bottom: 20px;
 }
 
 h1 {
@@ -144,7 +149,7 @@ nav ul li a {
 
 footer {
   clear: both;
-  padding: 2px 0;
+  padding: 10px 0;
   margin: 0;
   background-color: var(--main-medium-red);
 }
@@ -174,6 +179,10 @@ footer p {
   text-align: left;
 }
 
+.column p {
+  text-align: justify;
+}
+
 section.columnTitle {
   text-align: center;
   margin-bottom: 25px;
@@ -182,7 +191,7 @@ section.columnTitle {
 section.columnTitle h2 {
   width: 75%;
   padding: 0 30px 10px 30px;
-  margin-top: 10px;
+  margin-top: 20px;
   font-size: 48px;
   display: inline-block;
 }
@@ -204,8 +213,8 @@ form {
 }
 
 label {
-  width: 112px; 
-  padding-right: 10px; 
+  width: 112px;
+  padding-right: 10px;
   float: left;
   text-align: right;
 }
@@ -255,7 +264,7 @@ input[type="checkbox"] {
 */
 
 table {
-  width: 86%;
+  width: 91%;
 }
 
 table, th, td {
